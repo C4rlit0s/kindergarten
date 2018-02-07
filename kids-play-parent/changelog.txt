@@ -1,0 +1,361 @@
+*** Kids Play Changelog ***
+
+ 2017.03.07 - version 1.0.4
+ * Fixed problem with header alignment on category page
+	kids-play-parent/dynamic-css/fw-theme/content.php
+ * Improvments to header 5 burger menu styles
+	kids-play-parent/dynamic-css/fw-theme/content.php
+	kids-play-parent/dynamic-css/fw-theme/headers/header-5.php
+	kids-play-parent/dynamic-css/fw-variables.php
+	kids-play-parent/js/general.js
+ * Minor improvements after theme update action
+	kids-play-parent/theme-includes/hooks.php
+ * Improvements to facebook widget
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/with-fw.php
+ * Fixed shape problem
+	kids-play-parent/dynamic-css/fw-theme/content.php
+	kids-play-parent/dynamic-css/fw-theme/headers/mobile-menu.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+	kids-play-parent/js/general.js
+ * Added new smooth scroll library
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/js/jQuery.scrollSpeed.js
+	kids-play-parent/theme-includes/static.php
+ * Fixed parallax problem
+	the-core-child/functions.php
+	kids-play-parent/dynamic-css/fw-theme.php
+	kids-play-parent/dynamic-css/fw-theme/content.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+	kids-play-parent/js/general.js
+	kids-play-parent/js/jquery.parallax.js
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/static.php
+ * Added header title alignment
+	kids-play-parent/framework-customizations/theme/options/bbpress-tab.php
+	kids-play-parent/framework-customizations/theme/options/buddypress-tab.php
+	kids-play-parent/framework-customizations/theme/options/events-tab.php
+	kids-play-parent/framework-customizations/theme/options/homepage-tab.php
+	kids-play-parent/framework-customizations/theme/options/llms-tab.php
+	kids-play-parent/framework-customizations/theme/options/portfolio-tab.php
+	kids-play-parent/framework-customizations/theme/options/products-tab.php
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/category.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_cat.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_difficulty.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_tag.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_track.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/fw-event-taxonomy-name.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/membership_cat.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/membership_tag.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/product_cat.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/product_tag.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/topic-tag.php
+	kids-play-parent/theme-includes/helpers.php
+ * RTL improvements
+	kids-play-parent/css/theme-admin.css
+	kids-play-parent/dynamic-css/fw-theme.php
+	kids-play-parent/dynamic-css/fw-theme/rtl/footer/footer-menu.php
+	kids-play-parent/dynamic-css/fw-theme/rtl/grid.php
+	kids-play-parent/dynamic-css/fw-theme/rtl/shortcodes/icon-box.php
+	kids-play-parent/dynamic-css/fw-theme/rtl/shortcodes/list.php
+	kids-play-parent/dynamic-css/fw-theme/rtl/shortcodes/tabs.php
+	kids-play-parent/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/countdown/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/quote/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/tab-slider/options.php
+	kids-play-parent/framework-customizations/theme/options/portfolio-tab.php
+	kids-play-parent/framework-customizations/theme/options/settings.php
+ * Improvements to schema markup
+	kids-play-parent/framework-customizations/extensions/events/views/single.php
+	kids-play-parent/page.php
+	kids-play-parent/templates/blog-3/content-aside.php
+	kids-play-parent/templates/blog-3/content-audio.php
+	kids-play-parent/templates/blog-3/content-gallery.php
+	kids-play-parent/templates/blog-3/content-image.php
+	kids-play-parent/templates/blog-3/content-link.php
+	kids-play-parent/templates/blog-3/content-quote.php
+	kids-play-parent/templates/blog-3/content-video.php
+	kids-play-parent/templates/blog-3/content.php
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+ * Added "Tab Slider" shortcode
+	kids-play-parent/css/owl.carousel.min.css
+	kids-play-parent/css/owl.theme.default.min.css
+	kids-play-parent/dynamic-css/fw-theme.php
+	kids-play-parent/dynamic-css/fw-theme/shortcodes/tabs-slider.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/tab-slider/
+	kids-play-parent/js/owl.carousel.js
+	kids-play-parent/theme-includes/hooks.php
+ * Fixed problem with vertical align on mobile devices + minor changes
+	kids-play-parent/dynamic-css/fw-theme/content.php
+	kids-play-parent/dynamic-css/fw-theme/general.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php
+	kids-play-parent/js/general.js
+	kids-play-parent/js/page-transition.js
+ * Improvements to video shortcode
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-video/views/view.php
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/static/css/style.css
+ * Fixed Twitter and Facebok widget autoload issue (on some servers)
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/no-fw.php
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/with-fw.php
+	kids-play-parent/theme-includes/widgets/fw-twitter/class-widget-fw-twitter.php
+	kids-play-parent/theme-includes/widgets/fw-twitter/no-fw.php
+	kids-play-parent/theme-includes/widgets/fw-twitter/with-fw.php
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/class-widge
+ * Fixed problem with google font array
+	kids-play-parent/theme-includes/helpers.php
+ * Added tf-option-picker container type
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/class-fw-container-type-tf-option-picker.php
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/index.html
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/static/css/index.html
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/static/css/style.css
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/static/index.html
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/static/js/index.html
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/static/js/script.js
+	kids-play-parent/theme-includes/includes/container-types/tf-option-picker/view.php
+
+ 2017.01.12 - version 1.0.3
+ * Added "Premade Sections"
+	kids-play-parent/css/theme-admin.css
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/includes/predefined-templates/class-tf-theme-predefined-templates.php
+	kids-play-parent/theme-includes/includes/predefined-templates/init.php
+	kids-play-parent/theme-includes/includes/predefined-templates/static/scripts.js
+	kids-play-parent/theme-includes/includes/predefined-templates/static/styles.css
+	kids-play-parent/theme-includes/includes/predefined-templates/views/sections.php
+ * Added image movement and image switch option to image shortcode
+	kids-play-parent/dynamic-css/fw-theme/image-styling/image.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/views/view.php
+ * Added smootscroll option
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/js/lib/smoothscroll.js
+	kids-play-parent/theme-includes/static.php
+ * Compatible with MailChimp for WordPress plugin
+	kids-play-parent/dynamic-css/fw-theme.php
+	kids-play-parent/dynamic-css/fw-theme/mailchimp/mailchimp.php
+	kids-play-parent/js/general.js
+	kids-play-parent/js/jquery.customInput.js
+ * Fixed imagesloaded problem
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/slideshow/static.php
+	kids-play-parent/theme-includes/widgets/fw-flickr/class-widget-fw-flickr.php
+	kids-play-parent/theme-includes/static.php
+ * Set required attribute as class for form items
+	kids-play-parent/framework-customizations/extensions/forms/form-builder/items/email/views/view.php
+	kids-play-parent/framework-customizations/extensions/forms/form-builder/items/number/views/view.php
+	kids-play-parent/framework-customizations/extensions/forms/form-builder/items/text/views/view.php
+	kids-play-parent/framework-customizations/extensions/forms/form-builder/items/textarea/views/view.php
+	kids-play-parent/framework-customizations/extensions/forms/form-builder/items/website/views/view.php
+ * Fixed problem with URL in slider type 2
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/static/js/image-video-slider.js
+ * Compatibility with LifterLMS plugin
+	kids-play-parent/dynamic-css/fw-theme.php
+	kids-play-parent/dynamic-css/fw-theme/lifter-lms/lifter-lms-widgets/widget-course-syllabus.php
+	kids-play-parent/dynamic-css/fw-theme/lifter-lms/lifter-lms.php
+	kids-play-parent/framework-customizations/theme/options/llms-tab.php
+	kids-play-parent/framework-customizations/theme/options/posts/course.php
+	kids-play-parent/framework-customizations/theme/options/posts/lesson.php
+	kids-play-parent/framework-customizations/theme/options/posts/llms_membership.php
+	kids-play-parent/framework-customizations/theme/options/posts/llms_question.php
+	kids-play-parent/framework-customizations/theme/options/posts/llms_quiz.php
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_cat.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_difficulty.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_tag.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/course_track.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/membership_cat.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/membership_tag.php
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+ * Fixed selectize input on mobile devices
+	kids-play-parent/dynamic-css/fw-theme/lib/selectize/selectize.theme.php
+	kids-play-parent/dynamic-css/fw-theme/page-transition.php
+	kids-play-parent/dynamic-css/fw-theme/woocommerce/woo-checkout.php
+	kids-play-parent/js/page-transition.js
+ * Fixed top menu subitems
+	kids-play-parent/dynamic-css/fw-theme/headers/top-nav-menu.php
+	kids-play-parent/dynamic-css/fw-variables.php
+ * Added page transition
+	kids-play-parent/css/animate.css
+	kids-play-parent/dynamic-css/fw-admin-styling.php
+	kids-play-parent/dynamic-css/fw-theme.php
+	kids-play-parent/dynamic-css/fw-theme/general.php
+	kids-play-parent/dynamic-css/fw-theme/page-transition.php
+	kids-play-parent/dynamic-css/fw-variables.php
+	kids-play-parent/footer.php
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/header.php
+	kids-play-parent/js/general.js
+	kids-play-parent/js/page-transition.js
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/static.php
+ * Fixed empty string to ratio on some servers
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php
+	kids-play-parent/framework-customizations/theme/options/posts/post.php
+	kids-play-parent/theme-includes/helpers.php
+ * Made event single dates translatable
+	kids-play-parent/framework-customizations/extensions/events/views/single.php
+ * Fixed RTL on icon box 3
+	kids-play-parent/dynamic-css/fw-theme/rtl/shortcodes/icon-box.php
+ * Added redirect page to Contact form shortcode
+	kids-play-parent/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php
+	kids-play-parent/framework-customizations/extensions/forms/extensions/contact-forms/views/form.php
+	kids-play-parent/js/general.js
+ * Minor changes
+	kids-play-parent/dynamic-css/fw-theme/headers/header-logo.php
+	kids-play-parent/dynamic-css/fw-theme/headers/header.php
+	kids-play-parent/theme-includes/includes/option-types/tf-typography/class-fw-option-type-tf-typography.php
+
+ 2016.10.18 - version 1.0.2
+ * LESS to PHP/CSS
+	kids-play-parent/dynamic-css/...
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+ * Minor changes for typography option type size verification
+	kids-play-parent/theme-includes/includes/option-types/tf-typography/static/js/scripts.js
+	kids-play-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+	kids-play-parent/theme-includes/register-required-plugins.php
+
+ 2016.09.13 - version 1.0.1
+ * Minor changes for empty key in google fonts on include
+	kids-play-parent/theme-includes/helpers.php
+ * Minor css fixes for modal levels
+	kids-play-parent/css/theme-admin.css
+	kids-play-parent/theme-includes/includes/option-types/tf-typography/static/css/styles.css
+ * Added custom shape to section
+	kids-play-parent/css/theme-admin.css
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/column/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/fw-gallery/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/list/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/section/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/slideshow/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/includes/option-types/color-palette/static/js/scripts.js
+ * Fixed grid for events posts in event category
+	kids-play-parent/framework-customizations/extensions/events/views/taxonomy.php
+	kids-play-parent/theme-includes/hooks.php
+ * Fixed facebook Wiget date localization
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/views/widget.php
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+ * Minor changes for flickr(console notice)
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/widgets/fw-flickr/static/js/scripts.js
+ * Fixed select in megamenu on firefox
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/button/options.php
+	kids-play-parent/js/general.js
+	kids-play-parent/styles-css/fw-theme/content.css
+	kids-play-parent/styles-css/fw-theme/headers/mega-menu.css
+ * Fixed notices
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/register-required-plugins.php
+ * Compatibiliy with "wp-shortcodes" Unyson extension
+	kids-play-parent/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/button/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/calendar/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/column/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/countdown/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/fw-gallery/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/list/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/map/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/quote/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/section/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/table/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php
+	kids-play-parent/framework-customizations/theme/manifest.php
+	kids-play-parent/framework-customizations/theme/options/settings.php
+	kids-play-parent/styles-css/fw-theme/headers/mega-menu.css
+	kids-play-parent/styles-less/fw-theme/headers/mega-menu.less
+	kids-play-parent/templates/headers/header-4.php
+	kids-play-parent/theme-includes/helpers.php
+ * Added icon box type 4
+	kids-play-parent/css/theme-admin.css
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/views/view.php
+	kids-play-parent/images/image-picker/icon-box-type4.jpg
+	kids-play-parent/js/general.js
+	kids-play-parent/styles-css/fw-theme/general.css
+	kids-play-parent/styles-css/fw-theme/headers/mobile-menu.css
+	kids-play-parent/theme-includes/hooks.php
+ * Fixed Easy Slider slide link population algorithm
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+ * Minor changes for smooth scroll and sticky menu
+	kids-play-parent/js/general.js
+	kids-play-parent/theme-includes/hooks.php
+	kids-play-parent/theme-includes/admin-styling.php
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+ * Added theme switcher after child install
+	kids-play-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+ * Changed the method of registering the posts thumbnail
+	kids-play-parent/theme-includes/hooks.php
+ * Minor changes
+	kids-play-parent/theme-includes/includes/class-tgm-plugin-activation.php
+ * Fixed comments text formatting
+	kids-play-parent/templates/comments/comments-template-1.php
+	kids-play-parent/templates/comments/comments-template-2.php
+ * Fixed Facebook widget when Unyson is not active
+	kids-play-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+ * Added anchor class for sliders
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-carousel/views/easy-carousel.php
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/fade-slider/views/fade-slider.php
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/views/image-video-slider.php
+	kids-play-parent/framework-customizations/extensions/media/extensions/slider/extensions/reload-slider/views/reload-slider.php
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	kids-play-parent/framework-customizations/theme/options/events-tab.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/category.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/fw-event-taxonomy-name.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/fw-learning-courses-taxonomy.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/product_cat.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/product_tag.php
+	kids-play-parent/framework-customizations/theme/options/taxonomies/topic-tag.php
+	kids-play-parent/theme-includes/hooks.php
+ * Minor changes for kids_play_image function
+	kids-play-parent/theme-includes/helpers.php
+	kids-play-parent/theme-includes/hooks.php
+ * Added map info about google API key
+	kids-play-parent/framework-customizations/extensions/shortcodes/shortcodes/map/options.php
+	
+ 2016.14.07 - version 1.0
+ * First release!
